@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 420" role="img" aria-labelledby="title description">
+  <title id="title">SIMARSIP</title>
+  <desc id="description">Sistem Manajemen Arsip Digital</desc>
+  <defs>
+    <linearGradient id="logoBlue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0789e8"/><stop offset="1" stop-color="#0754b7"/></linearGradient>
+    <linearGradient id="logoOrbit" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0871d3"/><stop offset="1" stop-color="#08a4eb"/></linearGradient>
+    <filter id="logoGlow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="8" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <g filter="url(#logoGlow)" stroke="#071222" stroke-width="9" stroke-linejoin="round">
+    <path fill="url(#logoBlue)" d="M114 104h104V68q0-17 18-17h112q17 0 17 17v25h35q18 0 18 18v32H111v-20q0-19 3-19z"/>
+    <path fill="#0875d1" d="M127 111h239q14 0 14 15v91q0 17-17 19l-192 24q-19 2-20-18z"/>
+    <path fill="#0875d1" d="M216 178h96q13 0 16 13l8 25q3 13-11 15l-100 12q-16 2-16-14v-35q0-16 7-16z"/>
+    <path fill="none" stroke="#d9efff" stroke-width="7" d="M121 110h96V73q0-9 10-9h100q9 0 9 10v28h31"/>
+    <path fill="none" stroke="#d9efff" stroke-width="7" stroke-linecap="round" d="M146 91h73m-73 17h62m-62 17h50M213 198l101-12"/>
+    <path fill="none" stroke="#071222" stroke-width="15" d="M234 222l19-3"/>
+    <path fill="url(#logoOrbit)" stroke-width="6" d="M73 221c-39 28-42 54-14 72 47 31 188 14 283-29 48-22 76-49 69-70-4-12-19-21-42-26 35 3 62 16 70 37 16 42-41 91-126 122-109 40-242 42-290 2-34-28-14-70 50-108z"/>
+    <rect fill="url(#logoBlue)" x="392" y="43" width="31" height="31" rx="5"/>
+    <rect fill="url(#logoBlue)" x="426" y="81" width="24" height="24" rx="4"/>
+    <rect fill="url(#logoBlue)" x="369" y="96" width="29" height="29" rx="5"/>
+    <rect fill="url(#logoBlue)" x="342" y="67" width="19" height="19" rx="4"/>
+    <rect fill="url(#logoBlue)" x="407" y="124" width="15" height="15" rx="3"/>
+  </g>
+  <text x="250" y="344" text-anchor="middle" fill="url(#logoBlue)" stroke="#d9efff" stroke-width="1.4" paint-order="stroke" font-family="Arial,sans-serif" font-size="63" font-weight="900" letter-spacing="1">SIMARSIP</text>
+  <text x="250" y="379" text-anchor="middle" fill="#dce9f8" font-family="Arial,sans-serif" font-size="21" letter-spacing="1.2">Sistem Manajemen Arsip Digital</text>
+</svg>

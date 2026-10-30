@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="id">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>SIMARSIP — Portal Siswa</title><link rel="stylesheet" href="css/style.css"></head>
+<body>
+  <main class="portal">
+    <section class="portal-head"><p class="eyebrow" style="color:#2E6E68">SIMARSIP · Loket 02</p><h1>Masuk sebagai Siswa</h1><p>Gunakan akun yang telah didaftarkan oleh guru pengampu.</p></section>
+    <form class="access-card siswa" id="siswaLoginForm">
+      <label for="username">Username</label><input id="username" type="text" autocomplete="username" required>
+      <label for="password">Password</label><div class="password-field"><input id="password" type="password" autocomplete="current-password" required><button class="password-toggle" type="button" aria-label="Tampilkan password" title="Tampilkan password">◉</button></div>
+      <p id="loginMessage" class="message">Belum punya akun? Hubungi guru pengampu.</p>
+      <button class="btn teal-btn block" type="submit">Masuk →</button>
+      <a class="back-link" href="index.html">← Kembali memilih loket</a>
+    </form>
+  </main>
+  <script src="js/common.js"></script><script src="js/siswa-login.js"></script>
+</body></html>

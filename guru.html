@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>SIMARSIP — Akses Guru</title><link rel="stylesheet" href="css/style.css"></head>
+<body class="landing-page staff-page">
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <main class="portal portal-compact">
+    <section class="portal-head reveal">
+      <div class="brand-orb staff-orb"><svg class="brand-logo-mark" viewBox="0 0 500 420" width="500" height="420" role="img" aria-label="Logo SIMARSIP" xmlns="http://www.w3.org/2000/svg"><path fill="#0875d1" stroke="#071222" stroke-width="9" d="M114 104h104V68q0-17 18-17h112q17 0 17 17v25h35q18 0 18 18v32H111v-20q0-19 3-19zM127 111h239q14 0 14 15v91q0 17-17 19l-192 24q-19 2-20-18z"/><path fill="none" stroke="#d9efff" stroke-width="8" stroke-linecap="round" d="M121 110h96V73q0-9 10-9h100q9 0 9 10v28h31M146 91h73m-73 17h62m-62 17h50"/><path fill="none" stroke="#0789e8" stroke-width="17" d="M73 221c-39 28-42 54-14 72 47 31 188 14 283-29 48-22 76-49 69-70-4-12-19-21-42-26 35 3 62 16 70 37 16 42-41 91-126 122-109 40-242 42-290 2-34-28-14-70 50-108z"/><text x="250" y="344" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="63" font-weight="900">SIMARSIP</text></svg></div>
+      <p class="eyebrow staff-eyebrow">SIMARSIP · Ruang Pengelola</p>
+      <h1>Akses <span>Guru</span></h1>
+      <p>Halaman pengelolaan internal. Masukkan kode akses guru untuk melanjutkan ke seluruh fitur administrasi arsip.</p>
+    </section>
+    <form class="access-card guru login-card reveal reveal-delay" id="guruLoginForm">
+      <div class="secure-heading"><span class="lock-icon">⌁</span><div><b>Area terbatas</b><small>Hanya untuk guru pengampu</small></div></div>
+      <label for="guruName">Username Guru</label>
+      <input id="guruName" type="text" value="guru" autocomplete="username" required>
+      <label for="guruAccess">Password Guru</label>
+      <div class="password-field"><input id="guruAccess" type="password" placeholder="Masukkan password" autocomplete="current-password" required><button class="password-toggle" type="button" aria-label="Tampilkan password" title="Tampilkan password">◉</button></div>
+      <p id="guruMessage" class="message">Masukkan username dan password akun guru.</p>
+      <button class="btn stamp-btn block" type="submit">Buka Ruang Guru <span>→</span></button>
+      <a class="back-link" href="index.html">← Kembali ke portal siswa</a>
+    </form>
+    <p class="footnote">Akses internal SIMARSIP · Data pengelolaan arsip sekolah</p>
+  </main>
+  <script src="js/common.js"></script><script src="js/guru-login.js"></script>
+</body></html>

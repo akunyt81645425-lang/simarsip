@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#142646">
+  <title>SIMARSIP — Developer</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="developer-page">
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <main class="developer-shell">
+    <header class="developer-header">
+      <a class="brand developer-brand" href="index.html"><span class="developer-brand-mark">S</span><span>SIMARSIP <small>DEVELOPER DESK</small></span></a>
+      <span class="developer-status"><i></i> Ruang internal</span>
+    </header>
+    <section id="developerLogin" class="developer-login-card">
+      <span class="developer-login-icon" aria-hidden="true">✦</span>
+      <p class="eyebrow">AKSES TERBATAS</p>
+      <h1>Halo, Developer.</h1>
+      <p class="developer-intro">Masuk untuk membaca dan membalas pesan yang dikirim siswa melalui Pusat Sambatan.</p>
+      <form id="developerLoginForm">
+        <label for="developerUsername">Username</label>
+        <input id="developerUsername" name="username" autocomplete="username" required>
+        <label for="developerPassword">Password</label>
+        <div class="password-field"><input id="developerPassword" name="password" type="password" autocomplete="current-password" required><button class="password-toggle" type="button" aria-label="Tampilkan password" title="Tampilkan password">◉</button></div>
+        <p id="developerLoginMessage" class="message" aria-live="polite">Gunakan akun developer SIMARSIP.</p>
+        <button class="btn developer-primary block" type="submit">Masuk ke Kotak Pesan <span>→</span></button>
+      </form>
+      <a class="back-link" href="index.html">← Kembali ke portal SIMARSIP</a>
+    </section>
+    <section id="developerInbox" class="developer-inbox" hidden>
+      <div class="developer-inbox-head">
+        <div><p class="eyebrow">RUANG DEVELOPER</p><h1>Kotak Sambatan</h1><p class="developer-intro">Baca pesan siswa, kenali pengirimnya, lalu kirim balasan yang akan mereka lihat di Pusat Sambatan.</p></div>
+        <div class="developer-head-actions"><button id="refreshFeedback" class="btn secondary" type="button">↻ Muat ulang</button><button id="developerLogout" class="btn developer-logout" type="button">Keluar</button></div>
+      </div>
+      <div id="developerMessageCount" class="developer-message-count" aria-live="polite"></div>
+      <div id="developerFeedbackList" class="developer-feedback-list"><div class="developer-empty">Memuat pesan siswa…</div></div>
+    </section>
+  </main>
+  <script src="js/common.js"></script>
+  <script src="js/developer.js"></script>
+</body>
+</html>
